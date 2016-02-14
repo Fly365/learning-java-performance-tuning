@@ -7,6 +7,7 @@ bui# Summary
 		* [IBM JCA](thread/analyze/jca/jca.md)
 * [负载均衡](loadbalance/loadbalance.md)
 	* [Nginx](loadbalance/nginx/nginx.md)
+	* [Nginx官方文档](loadbalance/nginx/official_document.md)
 		* [nginx如何处理请求(翻译)](loadbalance/nginx/request_processing.md)
 		* [服务器名称(翻译)](loadbalance/nginx/server_name.md)
 		* [使用nginx实现HTTP负载均衡(翻译)](loadbalance/nginx/HTTP_load_balancer.md)
