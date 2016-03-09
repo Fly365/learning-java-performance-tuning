@@ -13,7 +13,8 @@ bui# Summary
             * [服务器名称(翻译)](loadbalance/nginx/server_name.md)
             * [使用nginx实现HTTP负载均衡(翻译)](loadbalance/nginx/HTTP_load_balancer.md)
             * [Upstream设置文档(翻译)](loadbalance/nginx/upstream_doc.md)
-	* [Apache](loadbalance/apache.md)
+	* [Apache](loadbalance/apache/apache.md)
+		* [apache长连接支持](loadbalance/apache/keep_alive.md)
 	* [Tomcat](loadbalance/tomcat.md)
 	* [Jetty](loadbalance/jetty.md)
 
