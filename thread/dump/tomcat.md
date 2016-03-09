@@ -1,11 +1,13 @@
 tomcat中做Thread Dump的方法
 =========================
 
+> 注： 通常推荐使用jstack等工具直接获取Thread Dump，只有当jstack等工具不可用(比如只安装了jre没有jdk)时才使用下面的 "kill -3"的方法。
+
 ## 得到进程号
 
-先得到tomcat的进程号，使用ps命令：
+先得到tomcat的进程号，使用ps/jps命令：
 
-	[root@APP-TEST-DB2 ~]# ps -ef | grep tomcat
+	# ps -ef | grep tomcat
 
 输出类似如下：
 
