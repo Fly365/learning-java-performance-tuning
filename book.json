@@ -1,35 +1,32 @@
 {
-    "author": "Sky Ao <aoxiaojian@gmail.com>",
-    "description": "This is a book about the records in leaning java performance tuning.",
-    "extension": null,
-    "generator": "site",
-    "isbn": null,
-    "links": {
-        "sharing": {
-            "all": null,
-            "facebook": null,
-            "google": null,
-            "twitter": null,
-            "weibo": null
-        },
-        "sidebar": {
-            "Sky's Blog": "http://skyao.github.io/"
-        }
+  "gitbook": ">=3.2.0",
+  "description": "Java 性能调优学习笔记",
+  "language": "zh-hans",
+  "author": "Sky Ao <aoxiaojian@gmail.cn>",
+  "extension": null,
+  "generator": "site",
+  "links" : {
+    "sidebar" : {
+        "Sky@Gitbook": "https://skyao.gitbooks.io"
+    }
+  },
+  "structure" : {
+        "readme" : "README_gitbook.md"
     },
-    "output": null,
-    "pdf": {
-        "fontSize": 12,
-        "footerTemplate": null,
-        "headerTemplate": null,
-        "margin": {
-            "bottom": 36,
-            "left": 62,
-            "right": 62,
-            "top": 36
-        },
-        "pageNumbers": false,
-        "paperSize": "a4"
-    },
-    "title": "Leaning Java Performance Tuning/Java性能测试学习笔记",
-    "variables": {}
+  "plugins": [
+    "toggle-chapters",
+    "edit-link", 
+    "etoc",
+    "back-to-top-button",
+    "tags"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+        "base": "https://github.com/skyao/leaning-java-performance-tuning/edit/master",
+        "label": "Edit"
+    }
+  },
+  "title": "Java 性能调优学习笔记",
+  "variables": {
+  }
 }
